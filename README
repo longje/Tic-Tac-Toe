@@ -1,0 +1,22 @@
+#######################################################
+# Author: Jason
+# WebSite: www.solvebysearch.com
+# Language: Java
+#######################################################
+
+Compile: cd into src -> javac *.java
+Run : java Program or simply cd into bin and run.
+
+Description:
+A simple game of tic tac toe.  
+
+Features:
+	The user may reset the board at any time.
+	A line will be drawn through the winning 3 moves.
+	When a user clicks on the board, a blue highlight will be drawn.  This highlight shows the user where their move will be placed.
+
+Future improvements:
+	The intelligence of the computer is fairly limited at the moment, but will be improved in the future.
+		I intend to implement the max-min method described in "A Modern Approach" to AI by Peter N. and Stuart R.
+	I also intend to place another status label into the frame, showing the number of games played and who has won them.
+	Possibly implement multiplayer.
